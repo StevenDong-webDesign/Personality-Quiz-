@@ -1,0 +1,18 @@
+img {
+    display:block;
+}
+
+#heading {
+    text-align:center;
+}
+
+#buttonStart {
+        width: 15%;
+        position: relative;
+        left: 42.5%;
+    }
+
+#qContainer {
+        position: relative;
+        left: 23.4%;
+}

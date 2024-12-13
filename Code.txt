@@ -1,0 +1,196 @@
+/////////////////////////
+/////Testing/////
+$("#buttonFR").on("click", function() {
+    console.log("clicked = buttonStart");
+    $("#heading").text("France");
+    $(".buttonQ1").fadeOut();
+    $("#buttonStart").fadeIn();
+    
+    
+    $("#buttonStart").text("RESTART");   
+});
+
+
+$("#buttonJP").on("click", function() {
+    console.log("clicked = buttonStart");
+    $("#heading").text("Japan");
+    $(".buttonQ1").fadeOut();
+    $("#buttonStart").fadeIn();
+    
+    
+    $("#buttonStart").text("RESTART"); 
+});
+
+
+$("#buttonUS").on("click", function() {
+    console.log("clicked = buttonStart");
+    $("#heading").text("United States");
+    $(".buttonQ1").fadeOut();
+    $("#buttonStart").fadeIn();
+    
+    
+    $("#buttonStart").text("RESTART"); 
+});
+
+
+$("#buttonPT").on("click", function() {
+    console.log("clicked = buttonStart");
+    $("#heading").text("Portugal");
+    $(".buttonQ1").fadeOut();
+    $("#buttonStart").fadeIn();
+    
+    
+    $("#buttonStart").text("RESTART"); 
+});
+
+
+//$("#buttonQ1").on("click", function() {
+//    console.log("clicked = buttonStart");
+//    $("#heading").text("Where would you like to go?");
+//});
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+function scene1() {
+    console.log("scene1");
+    $(".buttonQ1").fadeIn();  
+    $("#heading").html("Where would you like to visit?");
+    $("#buttonFR").on("click", scene2);
+    $("#buttonJP").on("click", scene2);
+    $("#buttonUS").on("click", scene2);
+    $("#buttonPT").on("click", scene2);
+    
+    
+}
+
+function scene2() {
+    $("#heading").text("What Era would you like to live  through?");
+    $("#buttonFR").on("click", scene3);
+    $("#buttonJP").on("click", scene3);
+    $("#buttonUS").on("click", scene3);
+    $("#buttonPT").on("click", scene3);
+    
+    $("#buttonFR").text("Revolution");
+    $("#img1").attr("src", "questionImages/fr_revolution.jpg");
+    $("#buttonJP").text("Meiji Period");
+    $("#buttonUS").text("The Gold Rush");
+    $("#buttonPT").text("Renaissance");
+    
+    
+}
+
+function scene3() {
+    $("#heading").text("Select a profession you like.");
+    $("#buttonFR").on("click", scene4);
+    $("#buttonJP").on("click", scene4);
+    $("#buttonUS").on("click", scene4);
+    $("#buttonPT").on("click", scene4);
+    
+    $("#buttonFR").text("Policemen");
+    $("#buttonJP").text("Chef");
+    $("#buttonUS").text("Miner");
+    $("#buttonPT").text("Spanish Inquisition");
+}
+
+function scene4() {
+    $("#heading").text("Which of these elements do you like?");
+    $("#buttonFR").on("click", scene5);
+    $("#buttonJP").on("click", scene5);
+    $("#buttonUS").on("click", scene5);
+    $("#buttonPT").on("click", scene5);
+    
+    $("#buttonFR").text("Wood");
+    $("#buttonJP").text("Steel");
+    $("#buttonUS").text("Gold");
+    $("#buttonPT").text("Sponge");
+}
+
+function scene5() {
+    $("#heading").text("Which of these flavor do you like?");
+    $("#buttonFR").on("click", scene6);
+    $("#buttonJP").on("click", scene6);
+    $("#buttonUS").on("click", scene6);
+    $("#buttonPT").on("click", scene6); 
+    
+    $("#buttonFR").text("Salt");
+    $("#buttonJP").text("Red Bean Paste");
+    $("#buttonUS").text("Banana");
+    $("#buttonPT").text("Lemon");    
+}
+
+function scene6() {
+    $("#heading").text("What is another location would you like to visit?");
+    $("#buttonFR").on("click", scene7);
+    $("#buttonJP").on("click", scene7);
+    $("#buttonUS").on("click", scene7);
+    $("#buttonPT").on("click", scene7);
+    
+    $("#buttonFR").text("Austria");
+    $("#buttonJP").text("Africa");
+    $("#buttonUS").text("Philippines");
+    $("#buttonPT").text("Hawaii");   
+}
+
+function scene7() {
+    $("#heading").text("Which of these animals do you like?");
+    $("#buttonFR").on("click", scene8);
+    $("#buttonJP").on("click", scene8);
+    $("#buttonUS").on("click", scene8);
+    $("#buttonPT").on("click", scene8); 
+    
+    $("#buttonFR").text("Rooster");
+    $("#buttonJP").text("Green Pheasant");
+    $("#buttonUS").text("Bald Eagle");
+    $("#buttonPT").text("Iberian Wolf");   
+}
+
+function scene8() {
+    $("#heading").text("Which of these trees do you like?");
+    $("#buttonFR").on("click", scene9);
+    $("#buttonJP").on("click", scene9);
+    $("#buttonUS").on("click", scene9);
+    $("#buttonPT").on("click", scene9); 
+    
+    $("#buttonFR").text("Yew Tree");
+    $("#buttonJP").text("Sugi Tree");
+    $("#buttonUS").text("Oak Tree");
+    $("#buttonPT").text("Cork Oak Tree");    
+}
+
+function scene9() {
+    $("#heading").text("What is your favorite holiday out of the choices show?");
+    $("#buttonFR").on("click", scene10);
+    $("#buttonJP").on("click", scene10);
+    $("#buttonUS").on("click", scene10);
+    $("#buttonPT").on("click", scene10); 
+
+    $("#buttonFR").text("Bastille Day");
+    $("#buttonJP").text("New Year's Day");
+    $("#buttonUS").text("Chrismas");
+    $("#buttonPT").text("Easter");   
+}
+
+function scene10() {
+    $("#heading").text("idk");
+    //$("#buttonFR").on("click", scene4);
+    //$("#buttonJP").on("click", scene4);
+    //$("#buttonUS").on("click", scene4);
+    //$("#buttonPT").on("click", scene4); 
+    
+    //$("#buttonFR").text("");
+    //$("#buttonJP").text("");
+    //$("#buttonUS").text("");
+    //$("#buttonPT").text("");  
+}
+
+
+
+
+wadawd

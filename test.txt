@@ -1,0 +1,47 @@
+list:
+sour bread
+bageete
+bagel
+        
+        
+        
+action: sleep = flat bread
+action: active/excirsice = quick bread
+action: 
+        
+location: france = baguette
+        
+        
+        
+        
+        
+https://en.wikipedia.org/wiki/Sourdough
+sour dough - mining, riches, gold rush, california/US
+        
+        
+https://en.wikipedia.org/wiki/Banana_bread
+banana bread - tropical, resourceful, quick to make, in-doors, classic?, February
+        
+https://en.wikipedia.org/wiki/Baguette
+baguette - france, revoution, baseball bat, boton/police,  Viennese food
+        
+https://en.wikipedia.org/wiki/Anpan
+Anpan - jananese, cutting/slashing, samurai, sweet, beans 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+## location:                                                       france, us, japan, Portugal
+## Event-would you like to live through?:                          The Gold rush(US), revolution(FR), Meiji Period(JP), Renaissance era(PT)
+## Profession:                                                     chef(JP), policemen(FR), miner(US), spanish inquisition(PT)
+## element/mineril - make them all the shape of gold bars          gold(US), steel(JP), wood(FR), sponge(PT)
+## flavor                                                          red beans paste(JP), lemon(PT), salt(FR), banana(US)
+## what animals do you like                                        rooster(FR), green pheasant(JP), Iberian wolf(PT), bald eagle(US)
+## what trees do you like                                          Cork Oak Tree(PT), Yew Tree(FR), Sugi Tree(JP), Oak Tree(US)
+## holiday                                                         Easter(PT), New Year's Day(JP), Bastille Day(FR), Christmas(US)
+## second location:                                                Africa(JP), Hawaii(PT), Austria(FR), Philippines(US)
